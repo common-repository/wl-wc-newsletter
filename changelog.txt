@@ -1,0 +1,9 @@
+= 1.1.1 =
+* Mailing list feature to automatically categorize subscribers in to Guest, Customer & Member.
+* Send newsletter to all subscribers in any particular mailing list.
+
+= 1.1.0 =
+* Made changes to database tables preparing the tables for the next stable release.
+
+= 1.0.0 =
+* First major stable release of the plugin.

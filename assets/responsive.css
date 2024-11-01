@@ -1,0 +1,204 @@
+@media(max-width:782.99px) {
+    .wrap.wlnl form {
+        margin-bottom: 0;
+    }
+
+    .wrap.wlnl form p.search-box {
+        bottom: unset;
+        position: unset;
+        width: 100%;
+    }
+
+    .wrap.wlnl table th:not(:first-child) {
+        display: none;
+    }
+
+    .wrap.wlnl table tbody td:not(:first-child) {
+        display: none;
+    }
+
+    .wrap.wlnl table tbody td .wlwnl-row-actions {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    .wrap.wlnl table tbody td .wlwnl-row-actions .form-delete {
+        position: relative;
+        top: 1px;
+    }
+
+    .wrap.wlnl table tbody td.column-action {
+        display: none !important;
+    }
+
+    .alertify .ajs-modal {
+        top: 50px !important;
+    }
+
+    .toplevel_page_wlwcn-settings a .dashicons-before img {
+        padding-top: 2px !important;
+        padding-left: 2px !important;
+    }
+
+    .wrap.wlnl .tablenav.bottom .displaying-num {
+        position: absolute;
+        top: -5px;
+        left: 5px;
+        right: unset;
+    }
+}
+
+@media(min-width:783px) {
+    .wrap.wlnl table tbody td .wlwnl-row-actions {
+        display: none;
+    }
+
+    table.wp-list-table td.action .btn-container,
+    table.newsletter td.action .btn-container
+    {
+        display: inline-block;
+    }
+
+    table.wp-list-table td.action .btn-container a.btn,
+    table.newsletter td.action .btn-container a.btn
+    {
+        padding-bottom: 5px;
+        padding-top: 3px;
+    }
+
+    @supports(-webkit-tap-highlight-color: black) {
+        /* Matches Edge 12 - latest (92) */
+        /* Matches Chrome 16 - latest (95) */
+        /* Matches Opera 15 - latest (78) */
+
+        /* does not match Safari */
+        /* does not match Firefox */
+
+        table.newsletter td form button.btn-danger {
+            bottom: 2px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+    }
+}
+
+@media(min-width:783px) and (max-width:960.99px) {
+    .toplevel_page_wlwcn-settings .wp-menu-image img {
+        width: 25px;
+        position: relative;
+        bottom: 4px;
+    }
+}
+
+@media(min-width:961px) {
+    .toplevel_page_wlwcn-settings a .dashicons-before img {
+        padding-top: 2px !important;
+        padding-left: 5px !important;
+    }
+}
+
+@media(min-width:783px) and (max-width:1049.99px) {
+    table.newsletter td.action .btn-container:not(:first-child) .btn {
+        margin-left: 0 !important;
+    }
+
+    table.newsletter td.action .btn-container:nth-child(n+3) {
+        margin-top: 10px;
+    }
+
+    table.newsletter td.action .btn-container {
+        width: 48%;
+    }
+}
+
+@media(min-width:783px) and (max-width:799.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -15px;
+    }
+}
+
+@media(min-width:800px) and (max-width:849.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -20px;
+    }
+}
+
+@media(min-width:850px) and (max-width:899.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -25px;
+    }
+}
+
+@media(min-width:900px) and (max-width:960.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -30px;
+    }
+}
+
+@media(min-width:961px) and (max-width:999.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -20px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1049.99px) {
+    table.newsletter td.action .btn-container:nth-child(2n+2) {
+        margin-left: -25px;
+    }
+}
+
+@media(min-width:800px) and (max-width:1139.99px) {
+    table.newsletter td.action .btn-container:not(:first-child) .btn {
+        margin-left: 0 !important;
+    }
+}
+
+@media(min-width:960px) and (max-width:1139.99px) {
+    table.subscriber td.action > a,
+    table.subscriber td.action > form
+    {
+        line-height: 1.4em;
+    }
+}
+
+@media(max-width:529.99px) {
+    .btn-530-block {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .show.form-delete {
+        width: 100%;
+    }
+
+    .m-529-t-10 {
+        margin-top: 10px;
+    }
+}
+
+@media(min-width:530px) {
+    .d-530-inline-block {
+        display: inline-block;
+    }
+
+    .p-530-t-6 {
+        padding-top: 6px;
+    }
+
+    .lh-530-15 {
+        line-height: 1.5;
+    }
+
+    .m-530-l-5 {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:480.99px) {
+    .wrap.wlnl .tablenav-pages .tablenav-paging-text  {
+        float: none;
+        padding-top: unset;
+    }
+}
